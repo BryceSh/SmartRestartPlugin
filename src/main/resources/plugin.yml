@@ -1,0 +1,8 @@
+name: SmartRestart
+version: '${project.version}'
+main: ubiniti.smartrestart.Smartrestart
+api-version: 1.19
+commands:
+  srestart:
+    description: New up and coming
+    usage: /<command> [time in seconds] [reason]
